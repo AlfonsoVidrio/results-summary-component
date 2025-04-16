@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alfonso Vidrio">
+    <meta name="description" content="Results summary component showing your overall performance with detailed scores in Reaction, Memory, Verbal, and Visual categories.">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Results summary component</title>
+  </head>
+  <body>
+
+    <main class="results-main">
+      <div class="results-card">
+        <section class="results-score">
+          <h2 class="results-title">Your Result</h2>
+          <div class="score-circle">
+            76
+            <span class="score-total">of 100</span>
+          </div>
+          <h1 class="score-rank">Great</h1>
+          <p class="score-comparison">You scored higher than 65% of the people
+            who have taken these tests.</p>
+        </section>
+
+        <section class="results-summary">
+
+          <div class="skills-categories">
+            <h2 class="summary-title">Summary</h2>
+            <div class="skill-category skill-category--reaction">
+              <div class="skill-info">
+                <img src="assets/images/icon-reaction.svg" alt="Reaction icon"
+                  class="skill-icon">
+                <span class="skill-name">Reaction</span>
+              </div>
+              <p class="skill-score">80 <span class="skill-total">/
+                  100</span></p>
+            </div>
+
+            <div class="skill-category skill-category--memory">
+              <div class="skill-info">
+                <img src="assets/images/icon-memory.svg" alt="Memory icon"
+                  class="skill-icon">
+                <span class="skill-name">Memory</span>
+              </div>
+              <p class="skill-score">92 <span class="skill-total">/
+                  100</span></p>
+            </div>
+
+            <div class="skill-category skill-category--verbal">
+              <div class="skill-info">
+                <img src="assets/images/icon-verbal.svg" alt="Verbal icon"
+                  class="skill-icon">
+                <span class="skill-name">Verbal</span>
+              </div>
+              <p class="skill-score">61 <span class="skill-total">/
+                  100</span></p>
+            </div>
+
+            <div class="skill-category skill-category--visual">
+              <div class="skill-info">
+                <img src="assets/images/icon-visual.svg" alt="Visual icon"
+                  class="skill-icon">
+                <span class="skill-name">Visual</span>
+              </div>
+              <p class="skill-score">72 <span class="skill-total">/
+                  100</span></p>
+            </div>
+            <button class="continue-button">Continue</button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
